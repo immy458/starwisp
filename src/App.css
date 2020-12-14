@@ -14,7 +14,7 @@
 .nav-link:hover {
   background-color: #ffc480 !important;
 }
-.nav-link.active {
+.menu_active {
   background-color: #ffc480 !important;
 }
 .icon {

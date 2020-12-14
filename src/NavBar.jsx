@@ -10,15 +10,30 @@ import {
 function NavBar() {
   return (
     <nav className="nav flex-column">
-      <NavLink className="nav-link p-3" to="/">
+      <NavLink
+        className="nav-link p-3"
+        to="/"
+        exact
+        activeClassName="menu_active"
+      >
         <FontAwesomeIcon icon={faBoxOpen} className="icon" />
         Dashboard
       </NavLink>
-      <NavLink className="nav-link p-3" to="/screentwo">
+      <NavLink
+        exact
+        className="nav-link p-3"
+        to="/screentwo"
+        activeClassName="menu_active"
+      >
         <FontAwesomeIcon icon={faGraduationCap} className="icon" />
         Lorem
       </NavLink>
-      <NavLink className="nav-link p-3" to="/screentwo">
+      <NavLink
+        className="nav-link p-3"
+        exact
+        to="/asd"
+        activeClassName="menu_active"
+      >
         <FontAwesomeIcon icon={faCog} className="icon" />
         Ispum
       </NavLink>
