@@ -1,38 +1,197 @@
-.App {
+.nav {
+  border: 1px solid red;
+  background-color: #ff6c40;
+  color: #ffffff !important;
+  font-size: 20px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+.nav-link:hover {
+  background-color: #ffc480 !important;
+}
+.nav-link.active {
+  background-color: #ffc480 !important;
+}
+.icon {
+  margin: 0px 5px 0 5px;
+}
+
+body {
+  background-color: #f2f2f2 !important;
+  width: 97%;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
   pointer-events: none;
+  color: #aaa;
+  background-color: #e9ecef !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchbar {
+  background-color: #e9ecef !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.input-group-text {
+  background-color: none !important;
+}
+.salesreport,
+.commondiv {
+  border-radius: 15px;
+  background-color: white !important;
+}
+.commondiv.shadow {
+  box-shadow: 0px 1px 4px 0px blue !important;
+}
+.title {
+  color: #6d4f4f;
+  font-weight: 400;
+}
+.revenue {
+  background-color: #ffe700;
+}
+.quoations {
+  background-color: #1ffd77;
+}
+.rqbox {
+  background-color: #ff6c40;
+  border-radius: 0px 20px 20px 0px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.rqbox h4 {
+  margin-left: -20px !important  ;
+}
+.box {
+  padding: 20px;
+  width: 120px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.btn1 {
+  background: #ff6c40 !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  transition: 0.4s;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  outline: none !important;
+  border: none;
+}
+.icon.notepadplus {
+  margin-top: 5px !important;
+  color: white !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background: #f15d18;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottomline {
+  border-bottom: 0px solid lightgrey;
+}
+.bottomlinenotification {
+  border-bottom: 0px solid lightgrey;
+}
+.iconchart {
+  margin-right: 15px;
+  color: green;
+}
+.iconchart.firstmonth {
+  color: blue;
+}
+.notificationdiv {
+  width: 60px;
+  height: 60px;
+}
+.notificationevent {
+  background-color: #f2f2f2 !important;
+
+  border: 1px solid white;
+  border-radius: 0px 10px 0px 0px;
+}
+.postdiv {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+.textarea {
+  width: 100%;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+}
+.cancelpost {
+  color: #ff6c40;
+}
+.cancelpost:hover {
+  cursor: pointer;
+  color: black;
+}
+.attachment {
+  background: #ffc480 !important;
+  width: 40px !important;
+  height: 40px;
+  border-radius: 50% !important;
+  transition: 0.4s;
+  bottom: 0;
+  outline: none !important;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+}
+.attachmenticon {
+  margin-top: 10px !important;
+  color: #ff6c40 !important;
+}
+.sharebutton {
+  background-color: #ff6c40 !important;
+  border-radius: 10px 0px 0px 10px !important;
+  width: 100px !important;
+  outline: none !important;
+}
+.sharecaret {
+  background-color: #ffc480 !important;
+}
+.icondropdown {
+  color: #ff6c40 !important;
+}
+.avatar {
+  width: 70px;
+  border-radius: 10px;
+}
+.avatar.comment {
+  width: 50px;
+  margin-left: 70px;
+}
+.commentdiv {
+  background-color: #f2f2f2;
+  margin: -7px;
+  border-radius: 0px 0px 15px 15px;
+}
+.sendicon {
+  font-size: 22px;
+  color: maroon;
+}
+.viewall {
+  position: absolute;
+  left: calc(50% - 40px);
+  height: 20px;
+  width: 80px;
+  border-radius: 150px 150px 0 0;
+  background-color: #dddddd;
+  text-align: center;
+  margin-top: -11px;
+  font-size: 12px;
+  padding: 3px;
 }
